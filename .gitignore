@@ -5,6 +5,13 @@ build/
 dist/
 wheels/
 *.egg-info
+*.ipynb
 
 # Virtual environments
 .venv
+
+# Dataset
+dataset
+
+# Trained models
+models
