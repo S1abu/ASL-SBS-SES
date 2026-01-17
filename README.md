@@ -125,7 +125,3 @@ EPOCHS = 20
 The `train.py` script attempts to enable memory growth. If it fails, check that `nvidia-smi` works in your terminal and that you have installed `tensorflow` (Linux/WSL) or `tensorflow-cpu` + `tensorflow-directml` (if using specific setups), though standard `pip install tensorflow` usually covers CUDA on Linux/WSL.
 * **"Model not found" error?**
 Ensure you run `uv run train.py` successfully at least once before running `app.py` or `quantize.py`.
-
-```
-
-```
